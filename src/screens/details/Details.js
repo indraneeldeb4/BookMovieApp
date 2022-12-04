@@ -9,6 +9,8 @@ import GridListTileBar from '@material-ui/core/GridListTileBar';
 import StarBorderIcon from '@material-ui/icons/StarBorder';
 import { Link } from 'react-router-dom';
 
+
+
 class Details extends Component {
     constructor() {
         super();
