@@ -1,0 +1,114 @@
+.app-header {
+    background-color: #222;
+    height: 36px;
+    padding: 8px 32px 8px 16px;
+}
+
+.login-button {
+    float: right;
+}
+
+.app-logo {
+    animation: app-logo-spin infinite 8s linear;
+    height: 35px;
+    background: #ff7f7f;
+}
+
+.bookshow-button {
+    float: right;
+    margin-right: 8px;
+}
+
+@keyframes app-logo-spin {
+    from { transform: scaleX(-1); }
+}
+
+.tabs {
+    margin-bottom: 20px;
+}
+
+.dispNone {
+    display: none;
+}
+
+.dispBlock {
+    display: block;
+}
+
+.red {
+    color: red;
+}
+
+/*
+
+.header{
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 16px;
+  padding-right:32px;
+  width: 100vw;
+  height: 36px;
+  background-color: #222;
+}
+.logoContainer{
+  width: fit-content;
+  height: 35px;
+}
+.logo{
+  background-color: #ff7f7f;
+  animation: rotation 8s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+.buttonContainer{
+  display: flex;
+  flex-direction: row;
+  align-items: space-between;
+  height: 35px;
+  margin-right: 32px;
+}
+.logged{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  gap: 10px;
+}
+.bookShowbtn{
+  height: 35px;
+  width: fit-content;
+  color: white;
+  border: none;
+  background-color: blue;
+  border-radius: 5px;
+}
+.log{
+  color: #222;
+  border: none;
+  border-radius: 5px;
+}
+.LogShade{
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  z-index: 10 !important;
+  height: 150vh;
+  width: 150vw;
+  margin: -40px;
+  background-color: blue;
+  opacity: 50%;
+}
+
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+*/
